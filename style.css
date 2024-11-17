@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px;
+    border-radius: 15px;
+    flex-basis: 25%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 30px;
+    box-shadow:0px 0px 7px grey, 0px 0px 7px black;
+
+
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-section img {
+    border-radius: 50px;
+    width: 90px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+.top-section div p {
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.top-section div {
+    text-align: center;
+}
+
+.top-section>p {
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85%;
+    margin: 5px 0px 10px 0px;
+}
+
+.link-container>* {
+    background-color: hsl(0, 0%, 20%);
+    padding: 12px 0px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.link-container p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+
+.link-container p:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    transition: 1s;
+}
+
+.top-section img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.attribution{
+    text-align: center;
+}
